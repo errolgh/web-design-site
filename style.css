@@ -1,0 +1,222 @@
+/* ###################################################### */
+                    /* GENERAL CSS */
+/* ###################################################### */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+main {
+    /* maybe try montserrat? */
+    font-family: "Heebo", sans-serif;
+}
+
+nav {
+    padding: 0rem 5rem;
+    color: rgb(223, 223, 223);
+    background-color: rebeccapurple;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    min-height: 10vh;
+    color: rgb(223, 223, 223);
+}
+
+#logo {
+    font-family: "Lobster", cursive;
+    font-weight: lighter;
+    font-size: 2rem;
+}
+
+/* ###################################################### */
+                        /* NAV BAR */
+/* ###################################################### */
+
+.nav-links {
+    display: flex;
+    list-style: none;
+}
+
+.nav-links li {
+    font-family: "Heebo", sans serif;
+    padding-left: 10rem;
+    font-size: 1.2rem;
+}
+
+/* ###################################################### */
+                    /* LANDING */
+/* ###################################################### */
+
+.landing {
+    min-height: 90vh;
+    background-color: rebeccapurple;
+    background-size: cover;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    color: rgb(223, 223, 223);
+    margin-bottom: 10rem;
+}
+
+.tag-line {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, 30%);
+    font-size: 5.5rem;
+    font-family: "Lobster", cursive;
+}
+
+/* ###################################################### */
+                    /* WHAT WE DO */
+/* ###################################################### */
+
+
+.what-we-do {
+    min-height: 90vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 5rem;
+}
+
+.what-we-do-top {
+    text-align: center;
+    margin-bottom: 5rem;
+}
+
+.what-we-do h2 {
+    font-size: 2rem;
+}
+
+.what-we-do-top p {
+    font-size: 1.2rem;
+    font-weight: lighter;
+    margin: 1.5rem auto;
+    width: 600px;
+}
+
+.what-we-do-content {
+    display: flex;
+    width: 50%;
+    justify-content: space-between;
+    /* align-items: center; */
+    text-align: center;
+    /* width: 50%; */
+}
+
+
+.what-we-do-content .item {
+    width: 30%
+}
+
+.what-we-do-content .item .icon {
+    font-size: 4rem;
+}
+
+
+/* ###################################################### */
+                    /* WHAT WE DO */
+/* ###################################################### */
+
+
+.prices {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 100vh;
+    margin-bottom: 5rem;
+}
+
+.prices h2 {
+    font-size: 2rem;
+    color: rebeccapurple;
+}
+
+.price-boxes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+    width: 1200px;
+    margin: 5rem auto;
+}
+
+
+.price-box {
+    color: rgb(41, 41, 41);
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+    border: 0.1px solid rgba(102, 51, 153, 0.08);
+    margin: 10px;
+}
+
+
+.price-box.price-box-premium {
+    background-color:rgb(227, 221, 241);
+    transform: scale(1.2);
+    border: 0.1px solid rgba(102, 51, 153, 0.1);
+}
+
+.price-box.price-box-premium p{
+    color:rgb(73, 36, 110);
+}
+
+.price-box.price-box-premium ul{
+    border-top: 1px solid rgb(192, 171, 214);
+    
+}
+
+.price-box.price-box-premium ul li{
+    border-bottom: 1px solid rgb(192, 171, 214);
+}
+
+.price-box ul {
+    padding: 0;
+    list-style: none;
+    border-top: 1px solid rgb(224, 216, 231);
+}
+
+.price-box ul li {
+    padding: 10px 0;
+    margin-bottom: 1rem;
+    border-bottom: 1px solid rgb(224, 216, 231);
+}
+
+.price-box h3 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    color: rgb(47, 24, 70);
+}
+
+.price-box p {
+    font-size: 4rem;
+    font-weight: bolder;
+    margin-bottom: 1rem;
+}
+
+
+.price-box button {
+    background-image: linear-gradient(
+        to right,
+        rgb(204, 170, 233),
+        rgb(68, 28, 161)
+    );
+    color: white;
+    padding: 15px;
+    width: 100%;
+    border: none;
+    border-radius: 10px;
+    margin-top: 10px;
+    text-transform: uppercase;
+    font-size: 1.5;
+    font-family: "Heebo", sans serif;
+    letter-spacing: 2px;
+}
